@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="454d6fc8-e140-416b-bd34-62cd7635ecbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/common/constants/MessageTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/common/constants/MessageTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerRequestModerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerRequestModerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/server/ConcurrentChatThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/server/ConcurrentChatThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YDxldKmqEKrDXGKCVBUFxORKMz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client/chatapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.2264151" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.srijan.pandey" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ChatServer">
+    <configuration name="AbstractClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.client.base.AbstractClient" />
+      <module name="chatprotocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.client.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.client.base.ChatClient" />
+      <module name="chatprotocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.client.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClient1" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.client.base.ChatClient" />
+      <module name="chatprotocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.client.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatClient2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.client.base.ChatClient" />
+      <module name="chatprotocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.client.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.server.ChatServer" />
+      <module name="chatapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.server.core.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.test.RegexTester" />
+      <module name="chatprotocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerStateValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srijan.pandey.server.util.ServerStateValidator" />
+      <module name="chatprotocol" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srijan.pandey.server.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ChatClient1" />
+      <item itemvalue="Application.ChatClient2" />
+      <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.RegexTester" />
+      <item itemvalue="Application.ServerStateValidator" />
+      <item itemvalue="Application.AbstractClient" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatServer" />
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.AbstractClient" />
+        <item itemvalue="Application.ServerStateValidator" />
+        <item itemvalue="Application.RegexTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="454d6fc8-e140-416b-bd34-62cd7635ecbf" name="Default Changelist" comment="" />
+      <created>1582491117622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582491117622</updated>
+      <workItem from="1582491121434" duration="1662000" />
+      <workItem from="1582659674964" duration="6306000" />
+      <workItem from="1582676371800" duration="9000" />
+      <workItem from="1582687154431" duration="4651000" />
+      <workItem from="1582830603463" duration="28000" />
+      <workItem from="1583271384970" duration="772000" />
+      <workItem from="1583277178485" duration="1264000" />
+      <workItem from="1583335041279" duration="30918000" />
+      <workItem from="1583424338526" duration="11063000" />
+      <workItem from="1583531456838" duration="35228000" />
+      <workItem from="1583696271137" duration="318000" />
+      <workItem from="1583708190894" duration="20128000" />
+      <workItem from="1583798014757" duration="6421000" />
+      <workItem from="1583860279423" duration="516000" />
+      <workItem from="1583860823119" duration="12841000" />
+      <workItem from="1583885257902" duration="17335000" />
+      <workItem from="1583960206308" duration="9543000" />
+      <workItem from="1584023642974" duration="5164000" />
+      <workItem from="1584044277861" duration="38440000" />
+      <workItem from="1584145912932" duration="7519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2377" y="92" width="676" height="713" key="#ChatServer" timestamp="1584155121431">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="2377" y="92" width="676" height="713" key="#ChatServer/0.27.1920.1173/1920.0.1600.900@1920.0.1600.900" timestamp="1584155121431" />
+    <state x="463" y="211" width="848" height="529" key="#Project_Structure" timestamp="1584053870492">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="463" y="211" width="848" height="529" key="#Project_Structure/0.27.1600.873@0.27.1600.873" timestamp="1584053870492" />
+    <state x="555" y="274" width="848" height="677" key="#Project_Structure/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583388217102" />
+    <state x="418" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584114797934">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="348" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583362268516" />
+    <state x="348" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1600.873@0.27.1600.873" timestamp="1583946631537" />
+    <state x="418" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583338534944" />
+    <state x="418" y="270" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1173@0.27.1920.1173" timestamp="1584114797934" />
+    <state x="583" y="417" width="743" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583860302693">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="583" y="417" width="743" height="390" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583860302693" />
+    <state x="730" y="234" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1584173670050">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="608" y="181" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583368115659" />
+    <state x="608" y="181" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1600.873@0.27.1600.873" timestamp="1584056224801" />
+    <state x="730" y="234" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584173670050" />
+    <state x="2528" y="159" width="343" height="432" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1173/1920.0.1600.900@1920.0.1600.900" timestamp="1583534491325" />
+    <state x="730" y="234" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1173@0.27.1920.1173" timestamp="1584031491162" />
+    <state x="1097" y="234" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.3520.1173@0.27.3520.1173" timestamp="1584072954137" />
+    <state x="643" y="340" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583337436332">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="643" y="340" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583337436332" />
+    <state x="661" y="27" width="1035" height="1173" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584111905015">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="551" y="27" width="476" height="873" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1600.873@0.27.1600.873" timestamp="1583425838675" />
+    <state x="661" y="27" width="476" height="867" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583868631096" />
+    <state x="661" y="27" width="1035" height="1173" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1173@0.27.1920.1173" timestamp="1584111905015" />
+    <state x="533" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583441636998">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="533" y="211" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1600.873@0.27.1600.873" timestamp="1583441636998" />
+    <state x="558" y="115" width="814" height="695" key="#xdebugger.evaluate" timestamp="1583947933409">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="558" y="115" width="814" height="695" key="#xdebugger.evaluate/0.27.1600.873@0.27.1600.873" timestamp="1583947933409" />
+    <state x="526" y="323" width="538" height="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583363395050">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="526" y="323" width="538" height="278" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583363395050" />
+    <state width="572" height="782" key="DebuggerActiveHint" timestamp="1586649744026">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="572" height="782" key="DebuggerActiveHint/0.0.1920.1200@0.0.1920.1200" timestamp="1586649744026" />
+    <state width="561" height="568" key="DebuggerActiveHint/0.27.1600.873@0.27.1600.873" timestamp="1583948969757" />
+    <state width="572" height="764" key="DebuggerActiveHint/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177434307" />
+    <state width="674" height="764" key="DebuggerActiveHint/0.27.1920.1173@0.27.1920.1173" timestamp="1584113298490" />
+    <state x="100" y="125" width="1720" height="975" key="DiffContextDialog" timestamp="1583563972581">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="100" y="125" width="1720" height="975" key="DiffContextDialog/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583563972581" />
+    <state x="700" y="265" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586643591166">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="700" y="265" key="FileChooserDialogImpl/0.0.1920.1200@0.0.1920.1200" timestamp="1586643591166" />
+    <state x="583" y="220" width="424" height="484" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1582830629424" />
+    <state x="700" y="286" key="FileChooserDialogImpl/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1583696586984" />
+    <state width="917" height="405" key="GridCell.Tab.0.bottom" timestamp="1586663599249">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599249" />
+    <state width="1874" height="376" key="GridCell.Tab.0.bottom/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1584129579049" />
+    <state width="1874" height="413" key="GridCell.Tab.0.bottom/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551956" />
+    <state width="914" height="414" key="GridCell.Tab.0.bottom/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446603" />
+    <state width="1874" height="413" key="GridCell.Tab.0.bottom/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948326" />
+    <state width="917" height="405" key="GridCell.Tab.0.center" timestamp="1586663599249">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599249" />
+    <state width="1874" height="376" key="GridCell.Tab.0.center/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1584129579049" />
+    <state width="1874" height="413" key="GridCell.Tab.0.center/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551956" />
+    <state width="914" height="414" key="GridCell.Tab.0.center/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446602" />
+    <state width="1874" height="413" key="GridCell.Tab.0.center/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948325" />
+    <state width="917" height="405" key="GridCell.Tab.0.left" timestamp="1586663599248">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599248" />
+    <state width="1874" height="376" key="GridCell.Tab.0.left/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1584129579049" />
+    <state width="1874" height="413" key="GridCell.Tab.0.left/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551956" />
+    <state width="914" height="414" key="GridCell.Tab.0.left/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446601" />
+    <state width="1874" height="413" key="GridCell.Tab.0.left/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948325" />
+    <state width="917" height="405" key="GridCell.Tab.0.right" timestamp="1586663599249">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599249" />
+    <state width="1874" height="376" key="GridCell.Tab.0.right/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1584129579049" />
+    <state width="1874" height="413" key="GridCell.Tab.0.right/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551956" />
+    <state width="914" height="414" key="GridCell.Tab.0.right/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446603" />
+    <state width="1874" height="413" key="GridCell.Tab.0.right/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948325" />
+    <state width="917" height="405" key="GridCell.Tab.1.bottom" timestamp="1586663599250">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.1.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599250" />
+    <state width="1874" height="376" key="GridCell.Tab.1.bottom/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963954" />
+    <state width="914" height="414" key="GridCell.Tab.1.bottom/0.27.1600.873@0.27.1600.873" timestamp="1584129579050" />
+    <state width="1874" height="413" key="GridCell.Tab.1.bottom/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551701" />
+    <state width="914" height="414" key="GridCell.Tab.1.bottom/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446605" />
+    <state width="1874" height="413" key="GridCell.Tab.1.bottom/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948327" />
+    <state width="917" height="405" key="GridCell.Tab.1.center" timestamp="1586663599250">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.1.center/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599250" />
+    <state width="1874" height="376" key="GridCell.Tab.1.center/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.1.center/0.27.1600.873@0.27.1600.873" timestamp="1584129579050" />
+    <state width="1874" height="413" key="GridCell.Tab.1.center/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551701" />
+    <state width="914" height="414" key="GridCell.Tab.1.center/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446604" />
+    <state width="1874" height="413" key="GridCell.Tab.1.center/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948326" />
+    <state width="917" height="405" key="GridCell.Tab.1.left" timestamp="1586663599250">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.1.left/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599250" />
+    <state width="1874" height="376" key="GridCell.Tab.1.left/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.1.left/0.27.1600.873@0.27.1600.873" timestamp="1584129579050" />
+    <state width="1874" height="413" key="GridCell.Tab.1.left/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551701" />
+    <state width="914" height="414" key="GridCell.Tab.1.left/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446604" />
+    <state width="1874" height="413" key="GridCell.Tab.1.left/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948326" />
+    <state width="917" height="405" key="GridCell.Tab.1.right" timestamp="1586663599250">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="917" height="405" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1586663599250" />
+    <state width="1874" height="376" key="GridCell.Tab.1.right/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583629963953" />
+    <state width="914" height="414" key="GridCell.Tab.1.right/0.27.1600.873@0.27.1600.873" timestamp="1584129579050" />
+    <state width="1874" height="413" key="GridCell.Tab.1.right/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177551701" />
+    <state width="914" height="414" key="GridCell.Tab.1.right/0.27.1920.1173@0.27.1920.1173" timestamp="1584117446605" />
+    <state width="1874" height="413" key="GridCell.Tab.1.right/0.27.3520.1173@0.27.3520.1173" timestamp="1584074948326" />
+    <state x="547" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584145914750">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="456" y="290" key="com.intellij.ide.util.TipDialog/0.27.1600.873@0.27.1600.873" timestamp="1584044304877" />
+    <state x="547" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584145914750" />
+    <state x="547" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1173@0.27.1920.1173" timestamp="1584023643095" />
+    <state x="605" y="324" width="869" height="576" key="find.popup" timestamp="1584162380169">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="605" y="324" width="869" height="576" key="find.popup/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584162380169" />
+    <state x="557" y="270" key="run.anything.popup" timestamp="1584155901179">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="464" y="208" key="run.anything.popup/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583358854488" />
+    <state x="464" y="208" key="run.anything.popup/0.27.1600.873@0.27.1600.873" timestamp="1583943410933" />
+    <state x="557" y="270" key="run.anything.popup/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584155901179" />
+    <state x="557" y="270" key="run.anything.popup/0.27.1920.1173@0.27.1920.1173" timestamp="1584113527682" />
+    <state x="1021" y="270" key="run.anything.popup/0.27.3520.1173@0.27.3520.1173" timestamp="1584070765103" />
+    <state x="556" y="255" width="807" height="932" key="search.everywhere.popup" timestamp="1586650001367">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="556" y="255" width="807" height="932" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1586650001367" />
+    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.27.1600.873/1920.0.1600.900@0.27.1600.873" timestamp="1583368291891" />
+    <state x="463" y="212" width="672" height="678" key="search.everywhere.popup/0.27.1600.873@0.27.1600.873" timestamp="1584060807543" />
+    <state x="556" y="276" width="807" height="911" key="search.everywhere.popup/0.27.1920.1173/1920.0.1600.900@0.27.1920.1173" timestamp="1584177997400" />
+    <state x="556" y="276" width="807" height="911" key="search.everywhere.popup/0.27.1920.1173@0.27.1920.1173" timestamp="1584117362226" />
+    <state x="1019" y="276" width="1480" height="911" key="search.everywhere.popup/0.27.3520.1173@0.27.3520.1173" timestamp="1584074564509" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/ChatServer.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerRequestModerator.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/state/ClientState.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerResponseModerator.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/ResponseMediator.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/stubs/ServerDatabase.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/ResponseMediator.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerResponseModerator.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/Conversation.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/ConversationModule.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/Conversation.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/ResponseMediator.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/ResponseMediator.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/ResponseMediator.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/ResponseMediator.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/util/ClientRequestBuilder.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/RequestMediator.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/base/ChatClient.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/RequestMediator.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/base/AbstractClient.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/base/AbstractClient.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/base/AbstractClient.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/util/ServerMessageValidator.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerRequestModerator.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/conversation/Conversation.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/server/ConcurrentChatThread.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/server/core/moderator/ServerResponseModerator.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/srijan/pandey/client/core/RequestMediator.java</url>
+          <line>23</line>
+          <properties field="clientState" class="com.srijan.pandey.client.core.RequestMediator" />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
